@@ -1,7 +1,13 @@
 html{background-color:#FFFBE2;}
 h1:nth-child(2){text-align:center;}
-code{display:block;white-space:pre-wrap;
+h1 + h1{color:#00FF00;}
+
+article{display:none;}
+
+code{display:inline-block;white-space:pre-wrap;
 	background-color:#000000;color:#FFFFFF;
-	margin:10px;padding:20px;line-height:20px;}
-code::selection{color:yellow;}
-code:before{content:"常用git命令代码";color:green;line-height:50px;margin-left:50px;}
+	margin:2em;padding:2em;font-size:2em;font-family: 'Anonymous Pro', serif;text-shadow: 2px 2px 2px #aaa;}
+code::selection{color:#000000;background-color:#FFFFFF;}
+code:before{content:"常用git命令代码";color:green;margin-left:2em;}
+/* 这样显示出来的文字将不能被选中，类似与做了一张图片，但实际意义并不是特别大：
+这和“内容与形式的分离”的原则相背离 */
