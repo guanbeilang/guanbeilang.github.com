@@ -1,4 +1,6 @@
 html{background-color:#FFFBE2;}
+nav ul{list-style:none;display:inline;}
+nav li{display:inline;}
 h1:nth-child(2){text-align:center;}
 h1 + h1{color:#00FF00;text-shadow: 2px 2px 2px #aaa;}
 h3{display:inline;text-indent:2em;}
@@ -13,8 +15,9 @@ code{display:inline-block;white-space:pre-wrap;
 code::selection{color:#000000;background-color:#FFFFFF;text-shadow: 1px 1px 1px #FF0000;}
 code:before{content:"常用git命令代码";font-size:1.25em;color:#AAAAAA;margin:0px;padding:0px;float:right;}
 
-a[rel~=external]{display:inline-block;font-size:2em;background:#9AB54F;float:bottom;padding:1em;margin:1em;border-radius:1em;}
-a:visited{color:#A0FF5d;}
+a[rel~=external]{text-decoration:none;display:inline-block;font-size:2em;background:#9AB54F;float:bottom;padding:1em;margin:1em;border-radius:1em;}
+a[rel~=external]:visited{color:#A0FF5d;}
+a[rel~=external]:hover{margin-top:0.9em;color:#F0A000;}
 
 /* 这样显示出来的文字将不能被选中，类似与做了一张图片，但实际意义并不是特别大：
 这和“内容与形式的分离”的原则相背离 */
