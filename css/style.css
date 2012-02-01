@@ -1,0 +1,18 @@
+@charset "UTF-8";
+*{
+    -webkit-transition-duration: .35s;
+    -moz-transition-duration: .35s;
+    transition-duration: .35s;
+    -webkit-transition-timing-function: linear;
+    -moz-transition-timing-function: linear;
+    transition-timing-function: linear;
+}
+article{
+    /*位置信息*/
+    margin: 1em auto 1em auto;
+    padding: 0;
+    width: 960px;
+}
+section{
+    margin-top: 1em;
+}
