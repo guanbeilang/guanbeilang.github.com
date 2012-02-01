@@ -7,8 +7,8 @@
     -moz-transition-timing-function: linear;
     transition-timing-function: linear;
 }
+img{display:none;}
 article{
-    /*位置信息*/
     margin: 1em auto 1em auto;
     padding: 0;
     width: 960px;
